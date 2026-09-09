@@ -1,0 +1,44 @@
+erDiagram
+    FORMATO o|--o{ ANIME : clasifica
+    ESTADO ||--o{ ANIME : describe
+    ANIME ||--o{ ANIME_GENERO : tiene
+    GENERO ||--o{ ANIME_GENERO : agrupa
+    ANIME ||--o{ ANIME_ESTUDIO : produce
+    ESTUDIO ||--o{ ANIME_ESTUDIO : participa
+
+    ANIME {
+        int anime_id PK
+        string titulo
+        date fecha_inicio
+        int formato_id FK
+        int estado_id FK
+        float episodios
+        float duracion
+        float calificacion
+        int popularidad
+        int favoritos
+    }
+    FORMATO {
+        int formato_id PK
+        string formato
+    }
+    ESTADO {
+        int estado_id PK
+        string estado
+    }
+    GENERO {
+        int genero_id PK
+        string genero
+    }
+    ESTUDIO {
+        int estudio_id PK
+        string estudio
+    }
+    ANIME_GENERO {
+        int anime_id PK, FK
+        int genero_id PK, FK
+    }
+    ANIME_ESTUDIO {
+        int anime_id PK, FK
+        int estudio_id PK, FK
+    }

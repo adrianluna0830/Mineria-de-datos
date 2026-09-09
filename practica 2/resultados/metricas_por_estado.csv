@@ -1,0 +1,5 @@
+estado,cantidad_anime,calificaciones_disponibles,calificacion_media,calificacion_mediana,calificacion_desviacion,calificacion_minima,calificacion_maxima,episodios_promedio,duracion_promedio,popularidad_promedio,popularidad_total,favoritos_promedio,favoritos_total
+FINISHED,5431,4133,64.25,64.0,9.99,21.0,91.0,10.78,20.11,18958.08,102961359,528.17,2868500
+RELEASING,280,204,64.37,65.0,9.49,45.0,90.0,48.5,16.01,9968.74,2791247,216.98,60753
+NOT_YET_RELEASED,56,0,,,,,,3.57,16.4,9917.0,555352,119.34,6683
+CANCELLED,1,0,,,,,,12.0,6.0,41.0,41,0.0,0

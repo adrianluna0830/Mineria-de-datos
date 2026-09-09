@@ -1,0 +1,9 @@
+formato,cantidad_anime,calificaciones_disponibles,calificacion_media,calificacion_mediana,calificacion_desviacion,calificacion_minima,calificacion_maxima,episodios_promedio,duracion_promedio,popularidad_promedio,popularidad_total,favoritos_promedio,favoritos_total
+ONA,1917,1262,62.48,62.0,9.74,40.0,88.0,19.31,13.22,5994.53,11491519,156.96,300884
+TV,1281,1232,68.73,69.0,9.46,21.0,91.0,14.74,23.93,63577.18,81442365,1805.38,2312695
+MUSIC,965,693,60.95,61.0,7.71,44.0,86.0,1.03,3.63,563.4,543681,10.4,10033
+MOVIE,575,376,69.04,70.5,10.03,34.0,91.0,1.06,74.81,13915.37,8001340,376.64,216567
+OVA,419,401,61.58,62.0,7.79,41.0,81.0,2.26,20.83,4646.01,1946677,103.37,43311
+TV_SHORT,368,185,55.44,53.0,9.71,32.0,84.0,20.69,6.01,3052.85,1123447,44.04,16205
+SPECIAL,242,188,63.69,63.5,9.98,43.0,90.0,1.81,10.9,7258.35,1756520,149.54,36189
+sin_dato,1,0,,,,,,7.0,,2450.0,2450,52.0,52

@@ -1,0 +1,13 @@
+columna,tipo,total_filas,no_nulos,nulos,porcentaje_nulos,valores_unicos
+id,int64,5768,5768,0,0.0,5768
+titulo,object,5768,5768,0,0.0,5760
+fecha_inicio,datetime64[ns],5768,5768,0,0.0,1963
+formato,object,5768,5767,1,0.02,7
+estado,object,5768,5768,0,0.0,4
+episodios,float64,5768,5568,200,3.47,107
+duracion,float64,5768,5488,280,4.85,137
+generos,object,5768,5105,663,11.49,671
+estudios,object,5768,4429,1339,23.21,976
+calificacion,float64,5768,4337,1431,24.81,57
+popularidad,int64,5768,5768,0,0.0,3568
+favoritos,int64,5768,5768,0,0.0,1191
