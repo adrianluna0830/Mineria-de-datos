@@ -1,17 +1,9 @@
 # practica 1 de mineria de datos
 
-descargue los datos de anime de anilist y los limpie para las demas practicas
+descargue 6000 registros de anime desde la api de anilist, que permite pedir los datos con un programa e inclui datos de titulos, formatos, fechas, episodios, duracion, calificacion, popularidad y favoritos
 
-quite duplicados y registros sin titulo o fecha completa
+quite duplicados por id y filas sin titulo o fecha completa y ajuste las fechas y los valores numericos, ademas deje los numeros faltantes vacios para no confundir un dato desconocido con un cero
 
-tambien ajuste las fechas y los valores numericos
+al final obtuve un archivo limpio de 5768 filas y 12 columnas, con fechas de estreno entre 2019 y 2026
 
-lo corri desde esta carpeta con estos comandos
-
-```bash
-pip install requests pandas
-python obtener_anilist.py
-python limpiar_anilist.py
-```
-
-guarde los datos en `anilist_raw.csv` y la version limpia en `anilist_limpio.csv`
+fuente, [anilist](https://anilist.co)

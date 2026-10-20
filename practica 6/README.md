@@ -1,16 +1,9 @@
 # practica 6 de mineria de datos
 
-clasifique el formato del anime con knn usando episodios y duracion
+clasifique el formato del anime con knn usando episodios y duracion, con 5 vecinos busque los anime mas cercanos y asigne el formato mas repetido entre ellos
 
-use 5 vecinos
+separe el 80% de los datos para entrenar y el 20% para probar, manteniendo aproximadamente la proporcion de formatos y ajuste la escala solo con los datos de entrenamiento para que episodios y minutos fueran comparables al medir la cercania
 
-use el 80% de los datos para entrenar y el 20% para probar
+conte los aciertos en los datos de prueba y los compare con elegir siempre el formato mas comun del entrenamiento, tambien arme una matriz de confusion, una tabla con los formatos reales y estimados para revisar los aciertos y errores
 
-lo corri desde esta carpeta con estos comandos
-
-```bash
-pip install pandas scikit-learn
-python clasificacion_knn.py
-```
-
-guarde las predicciones, la matriz de confusion y un reporte con los aciertos en `resultados`
+añadi un reporte con el porcentaje de aciertos

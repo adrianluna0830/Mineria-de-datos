@@ -1,14 +1,5 @@
 # practica 3 de mineria de datos
 
-hice graficas con los datos limpios de anilist
+genere seis tipos de graficas con los datos limpios de la practica 1, elegi pastel para los formatos, histogramas para ver como se reparten los valores y cajas para revisar su variacion y los valores alejados
 
-genere graficas de formatos, variables numericas, calificacion y popularidad, generos y cantidad de anime por año
-
-lo corri desde esta carpeta con estos comandos
-
-```bash
-pip install pandas matplotlib
-python visualizacion_datos.py
-```
-
-guarde las imagenes en `resultados`
+añadi una dispersion de calificacion y popularidad, barras de los diez generos mas comunes y una linea de cantidad de anime por año, ademas con ciclos pude crear los histogramas y las cajas de varias columnas sin repetir el mismo codigo
